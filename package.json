@@ -1,0 +1,25 @@
+{
+  "name": "fake-data-generator",
+  "version": "1.0.0",
+  "description": "Generating fake mock-data",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server generate.js && lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webia1/fake-data-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webia1/fake-data-generator/issues"
+  },
+  "homepage": "https://github.com/webia1/fake-data-generator#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash": "^4.17.4"
+  }
+}
